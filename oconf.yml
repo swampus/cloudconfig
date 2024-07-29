@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    bus:
+      enabled: true
+    stream:
+      bindings:
+        input:
+          destination: springCloudBus
+        output:
+          destination: springCloudBus
