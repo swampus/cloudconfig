@@ -1,7 +1,7 @@
 spring:
   cloud:
     bus:
-      enabled: true
+      enabled: false
     stream:
       bindings:
         input:
